@@ -2,16 +2,18 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Rent a car">
     <meta name="author" content="Aleksander Podržaj">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Rent a car</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery link-->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -20,7 +22,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -36,43 +37,107 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">Pick your vehicle</a>
+                        <a class="nav-link js-scroll-trigger" href="#pick">Pick your vehicle</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#projects">Your info</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#signup">Reserved</a>
+                        <a class="nav-link js-scroll-trigger" href="#signup">Reserve</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Header - v css masthead - prva stran -->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0 text-uppercase">RENT A CAR</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">We offer a big variety of different vehicles, at awesome prices!</h2>
-                <a href="#about" class="btn btn-primary js-scroll-trigger">Choose your vehicle</a>
+                <a href="#pick" class="btn btn-primary js-scroll-trigger">Choose your vehicle</a>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
+    <!-- Pick Section / about section / list of rental cars-->
+    <section id="pick" class="about-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-                    <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                        <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                5
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4">
+                                <div class="small text-black-50">
+                                    <a href="#">hello@yourdomain.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4">
+                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <img src="img/ipad.png" class="img-fluid" alt="">
         </div>
     </section>
+
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
@@ -222,6 +287,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
 
 </body>
 
